@@ -61,15 +61,62 @@
     display: inline;
     text-align: center;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 700;
+}
+
+.home .home-content #headshot {
+    border: solid 25px;
 }
 
 /* About */
 .about{
+    border: solid 10px;
+    margin: 50px;
     font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
 }
 
 .about .title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+}
+
+.about .text{
+    margin: 15px;
+}
+
+/* Skills & Projects Layout */
+.skills-projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Skills */
+.skills-content{
+    border: solid 10px;
+    margin: 50px;
+    width: 100vh;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+}
+
+.skills-content .title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Projects */
+.projects-content{
+    border: solid 10px;
+    margin: 50px;
+    width: 100vh;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+}
+
+.projects-content .title{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
