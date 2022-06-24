@@ -1,0 +1,6 @@
+{
+    "short_name": "React Portfolio",
+    "name": "Create React Portfolio",
+    "start_url": ".",
+    "display": "standalone"
+  }
