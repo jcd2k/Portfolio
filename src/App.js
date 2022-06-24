@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import NavBar from './components/Header';
+import NavBar from './components/Navbar';
 import About from './components/About';
-import Contact from './components/ContactUs';
-import Footer from './components/Footer';
-import portfolioData from './resumeData';
+import Contact from './components/Contact';
+import portfolioData from './portfolioData';
 
 class App extends Component {
   render() {
@@ -11,10 +10,8 @@ class App extends Component {
       <div className="App">
         <NavBar portfolioData={portfolioData}/>
         <About portfolioData={portfolioData}/>
-        <Skills portfolioData={portfolioData}/>
-        <Projects portfolioData={portfolioData}/>
-        <Contact portfolioData={resumeData}/>
-        <Footer portfolioData={resumeData}/>
+        <Skills-Projects portfolioData={portfolioData}/>
+        <Contact portfolioData={portfolioData}/>
       </div>
     );
   }

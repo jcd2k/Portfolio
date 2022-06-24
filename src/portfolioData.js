@@ -60,22 +60,26 @@ let portfolioData = {
       {
         "name":"GreenPlanet Landscaping",
         "description":"first project app using basic JS",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"",
+        "link":""
       },
       {
         "name":"Psych Clinic Backend",
         "description":"mockup backend for a psych clinic using SQL",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"",
+        "link":""
       },
       {
         "name":"EXPRESSN",
         "description":"interface for artists and art admirers using MongoDB and ReactJS",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"",
+        "link":""
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Employee Management System",
+        "description":"CMS-style employee management system using SQL",
+        "imgurl":"",
+        "link":""
       }
     ],
 }
