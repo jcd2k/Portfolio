@@ -28,12 +28,14 @@ let portfolioData = {
         "specialization":"Host/Server",
         "MonthOfLeaving":"Feb",
         "YearOfLeaving":"2021",
+        "experience": "customer relations"
       },
       {
         "CompanyName":"ENCON International, Inc.",
         "specialization":"Administrative Assistant",
         "MonthOfLeaving":"Sep",
         "YearOfLeaving":"2020",
+        "experience": "project development and research"
       }
     ],
     "skillsDescription":"Your skills here",
